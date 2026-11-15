@@ -1,0 +1,10 @@
+Stream_Stage,Model,Accuracy,Precision,Recall,F1_Score,ROC_AUC,TN,FP (Cost=1),FN (Cost=5),TP,Total_Cost,Avg_Cost
+Luồng A (Tuned),Decision Tree,0.625,0.4312,0.7833,0.5562,0.7124,78,62,13,47,127,0.635
+Luồng B (Tuned),Decision Tree,0.67,0.4681,0.7333,0.5714,0.7332,90,50,16,44,130,0.65
+Luồng A (Baseline),Naive Bayes,0.705,0.5065,0.65,0.5693,0.7612,102,38,21,39,143,0.715
+Luồng A (Tuned),Naive Bayes,0.705,0.5065,0.65,0.5693,0.7618,102,38,21,39,143,0.715
+Luồng B (Tuned),Naive Bayes,0.695,0.4933,0.6167,0.5481,0.7419,102,38,23,37,153,0.765
+Luồng B (Tuned),K-NN,0.74,0.58,0.4833,0.5273,0.7883,119,21,31,29,176,0.88
+Luồng A (Baseline),K-NN,0.72,0.5417,0.4333,0.4815,0.6986,118,22,34,26,192,0.96
+Luồng A (Tuned),K-NN,0.725,0.5556,0.4167,0.4762,0.6866,120,20,35,25,195,0.975
+Luồng A (Baseline),Decision Tree,0.64,0.4118,0.4667,0.4375,0.5905,100,40,32,28,200,1.0
